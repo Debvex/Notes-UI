@@ -88,7 +88,7 @@ const App = () => {
 
                   <button
                     onClick={() => handleDelete(note.id)}
-                    className="self-center mt-4 w-1/2 text-sm bg-amber-600 rounded-4xl m-2 text-shadow-white hover:accent-gray-400 font-medium cursor-pointer"
+                    className="self-center mt-4 w-1/2 text-sm bg-red-600 rounded-4xl m-2 text-white hover:accent-gray-400 font-medium cursor-pointer"
                   >
                     Delete
                   </button>
