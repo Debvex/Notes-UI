@@ -79,16 +79,16 @@ const App = () => {
               {notes.map((note) => (
                 <div
                   key={note.id}
-                  className="bg-white p-5 rounded-lg shadow border border-gray-200 flex flex-col justify-between"
+                  className="bg-[url(https://static.vecteezy.com/system/resources/thumbnails/010/793/873/small/a-lined-note-paper-covered-with-transparent-tape-on-a-yellow-background-with-a-white-checkered-pattern-free-png.png)] bg-cover bg-center h-full w-full p-5 rounded-lg flex flex-col justify-between"
                 >
                   <div>
-                    <h3 className="text-lg font-bold text-gray-800 mb-2">{note.task}</h3>
+                    <h3 className="mt-4text-lg font-bold text-gray-800 mb-2">{note.task}</h3>
                     <p className="text-gray-600 whitespace-pre-wrap">{note.description}</p>
                   </div>
 
                   <button
                     onClick={() => handleDelete(note.id)}
-                    className="mt-4 self-end text-sm text-red-600 hover:text-red-800 font-medium cursor-pointer"
+                    className="self-center mt-4 w-1/2 text-sm bg-amber-600 rounded-4xl m-2 text-shadow-white hover:accent-gray-400 font-medium cursor-pointer"
                   >
                     Delete
                   </button>
